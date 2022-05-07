@@ -1,4 +1,6 @@
- /*--COUNTS--*/
+window.snake.more_menu = function() {
+ 
+/*--COUNTS--*/
 
   // 13
   img = new Image;
@@ -6,3 +8,5 @@
   img.width = 47;
   img.height = 47;
   document.querySelector('#count').appendChild(img);
+
+};
